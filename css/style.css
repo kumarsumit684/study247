@@ -60,7 +60,7 @@ nav .menu-btn i{
 	text-align: center;
 	
 }
-@media (max-width: 1000px) {
+@media (max-width: 940px) {
 	nav .menu-btn i{
 		display: block;
 	}
@@ -69,7 +69,7 @@ nav .menu-btn i{
 	}
 	nav ul{
 		position: fixed;
-		top: 80px;
+		top: 00px;
 		left: -100%;
 		background: #111;
 		height: 100vh;

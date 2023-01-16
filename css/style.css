@@ -60,9 +60,32 @@ nav .menu-btn i{
 	text-align: center;
 	
 }
-@media only screen and (max-width:500px) {
-	.menu, .main, .right {
+@media (max-width: 1000px) {
+	nav .menu-btn i{
+		display: block;
+	}
+	#click:checked ~ .menu-btn i:before{
+		content: "X";
+	}
+	nav ul{
+		position: fixed;
+		top: 80px;
+		left: -100%;
+		background: #111;
+		height: 100vh;
 		width: 100%;
+		display: block;
+		text-align: center;
+		transition: all 0.3s ease;
+	}
+	#click:checked ~ ul{
+		left: 0%;
+	}
+	nav ul li{
+		margin: 40px 0;
+	}
+	nav ul li a{
+		font-size: 20px;
 	}
 
 	

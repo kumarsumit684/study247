@@ -3,7 +3,7 @@
 	<head>
 		<meta chrset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Contact Us </title>
+		<title> Study Material</title>
 		<link rel= "stylesheet" href="css/all.min.css">
 		<link rel= "stylesheet" href="css/style.css">
 		<sript src="https://kit.fontawesome.com/13711dc234.js"crossorigin="anonymous"></sript>
@@ -25,7 +25,75 @@
 		</ul>
 		</nav>
 		
-		
-		<p> Contact Us </p>
+		<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin: 10px -10px 20px 5px;
+}
+.row {margin: 0 -5px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #faf2e4;
+}
+</style>
+</head>
+<body>
+
+<h2><br><b><u> Study Material </b></u></br></h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3><u>Science Class 10th</u> </h3>
+      <p> Syllabus</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3><u>Mathematics Class 10th</u></h3>
+      <p>Syllabus</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
 	</body>	
 </html>

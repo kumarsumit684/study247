@@ -69,20 +69,26 @@ nav .menu-btn i{
 	}
 	nav ul{
 		position: fixed;
-		top: 00px;
+		top: 80px;
 		left: -100%;
-		background: #111;
+		background: #25383C;
 		height: 100vh;
 		width: 100%;
 		display: block;
 		text-align: center;
 		transition: all 0.3s ease;
+
 	}
 	#click:checked ~ ul{
 		left: 0%;
 	}
 	nav ul li{
 		margin: 40px 0;
+		height: 40px;
+		width: 250px;
+		border: 4px solid #0C090A;
+		text-align: center;
+		padding: 7px;		
 	}
 	nav ul li a{
 		font-size: 15px;

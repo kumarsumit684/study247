@@ -73,6 +73,7 @@ nav .menu-btn i{
 
 #menu-bar{
 	display: none;
+
 }
 
 label{
@@ -118,6 +119,18 @@ label{
 		font-size: 15px;
 
 	}
+	label:hover,
+	label.active{
+	color: #000000;
+	background: #A70D2A;
+	}
+	
+	label{
+		text-align: center;
+		padding: 1px;
+		border-radius: 5px;
+
+}
 
 
 

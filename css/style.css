@@ -47,12 +47,7 @@ nav ul li a{
 	body {
 	background-color: #faf2e4;
 	}
-nav .menu-btn i{
-	color: #000000;
-	font-size: 22px;
-	cursor: pointer;
-	display: none;
-}
+
 #click{
 	display: none;
 }

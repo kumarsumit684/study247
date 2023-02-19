@@ -69,10 +69,6 @@ nav .dropbtn {
 	display: none;
 }
 
-
-
-
-
 @media (max-width: 940px) {
 
 	nav ul{
@@ -116,7 +112,7 @@ nav .dropbtn {
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  margin: 30px;
+  margin: 50px;
 }
 
 .dropdown {

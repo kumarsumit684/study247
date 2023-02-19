@@ -16,6 +16,8 @@ nav .logo{
 	font-size: 33px;
 	color: #fff;
 	font-weight: 600;
+	margin-left: -70px;
+	margin-top: 5px;
 }
 
 img {
@@ -107,13 +109,13 @@ nav .dropbtn {
 
 	
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #95B9C7;
   color: white;
   padding: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 50%;
   margin: 30px;
 }
 
@@ -148,7 +150,7 @@ nav .dropbtn {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #A70D2A;
 }
 
 }

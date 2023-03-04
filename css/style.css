@@ -121,9 +121,9 @@ nav .dropbtn {
   border: 1px solid #36454F;
 }
 .dropdown-content p {
-	margin-top: 5px;
-	border:2px solid;
-	border-radius: 5px 5px 0px 0px;
+	margin-top: 0px;
+	border:1px solid;
+	text-align: left;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}

@@ -106,7 +106,7 @@ nav .dropbtn {
   position: absolute;
   right: 1px;
   background-color: #E5E4E2;
-  min-width: 465px;
+  min-width: 400px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 5px;

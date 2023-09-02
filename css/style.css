@@ -23,7 +23,12 @@ nav .logo{
 
 	
 
-
+img {
+	width: 150px;
+	height: 200px;
+	margin-top: 5px;
+	margin-left: 10px;
+}	
 
 nav ul{
 	display: flex;

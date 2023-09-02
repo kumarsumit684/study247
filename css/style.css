@@ -12,6 +12,7 @@ nav{
 	justify-content: space-between;
 	padding: 0px 50px 0px 100px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.9);
+	margin-left:0px;
 }
 nav .logo{
 	font-size: 20px;
@@ -33,6 +34,7 @@ img {
 nav ul{
 	display: flex;
 	list-style: none;
+	margin-left: 475px;
 }
 nav ul li{
 	margin: 0 5px;
@@ -93,7 +95,7 @@ nav .dropbtn {
   border: none;
   cursor: pointer;
   border-radius: 0px; 
-  margin: 50px;
+  margin: 10px;
 }
 
 .dropdown {

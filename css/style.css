@@ -22,9 +22,7 @@ nav .logo{
 	margin-top: 5px;
 }
 
-	
-
-	img {
+img {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -94,15 +92,15 @@ nav .dropbtn {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 0px; 
-  margin: 50px;
+  border-radius: 4px; 
+  margin-left: 250px;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-right: -40px;
-  margin-top: 5px;
+  margin-right: -250px;
+  margin-top: 10px;
   
 }
 
@@ -114,7 +112,10 @@ nav .dropbtn {
   min-width: 350px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 205px;
+  
 }
 
 .dropdown-content a {

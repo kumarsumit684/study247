@@ -12,14 +12,27 @@
 	</head>
 	<body>
 		<nav>
-			<div class="topnav">
+			<div class="topnav" id="myTopnav">
 			<a href="index.html"><i class="fa-solid fa-house-user"></i>&ensp;Home</a>
 			<a href="Courses.html"><i class="fa-solid fa-object-group"></i>&ensp; Courses</a>
 			<a href="Faculty Members.html"><i class="fa-solid fa-users-between-lines"></i>&ensp; Faculty Members</a>
 			<a href="Study Material.html"><i class="fa-solid fa-laptop-file"></i>&ensp; Study Material</a>
-			<a href="Registration.html"><i class="fa-solid fa-house-user"></i>&ensp;Registration</a>
-			<a href="About.html"><i class="fa-regular fa-address-card"></i>&ensp; About</a>		
-			</div>
+			<a href="Registration.html"><i class="fa-solid fa-id-card"></i>&ensp;Registration</a>
+			<a href="About.html"><i class="fa-regular fa-address-card"></i>&ensp; About</a>	
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+			</a>
+		<div style="padding-left:16px"></div>
+		<script>
+		function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    	x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  }
+}
+</script>
 		</nav>
 		
 				<div class="card-content">

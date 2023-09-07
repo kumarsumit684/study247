@@ -12,13 +12,27 @@
 	</head>
 	<body>
 		<nav>
-			<div class="topnav">
+			<div class="topnav" id="myTopnav">
 			<a href="index.html"><i class="fa-solid fa-house-user"></i>&ensp;Home</a>
 			<a href="Courses.html"><i class="fa-solid fa-object-group"></i>&ensp; Courses</a>
 			<a href="Faculty Members.html"><i class="fa-solid fa-users-between-lines"></i>&ensp; Faculty Members</a>
 			<a href="Study Material.html"><i class="fa-solid fa-laptop-file"></i>&ensp; Study Material</a>
-			<a href="Registration.html"><i class="fa-solid fa-house-user"></i>&ensp;Registration</a>
-			<a href="About.html"><i class="fa-regular fa-address-card"></i>&ensp; About</a>		
+			<a href="Registration.html"><i class="fa-solid fa-id-card"></i>&ensp;Registration</a>
+			<a href="About.html"><i class="fa-regular fa-address-card"></i>&ensp; About</a>	
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+			</a>
+		<div style="padding-left:16px"></div>
+		<script>
+		function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    	x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  }
+}
+</script>
 			</div>
 		</nav>
 	
@@ -34,7 +48,7 @@
 			 as the human species, and some of the earliest archeological evidence for scientific
 			 reasoning is tens of thousands of years old.]
 			</p>
-			<br><b>&ensp; 1. Class - 08</b></br><br><b>&ensp; 2. Class - 09 </b></br><br><b>&ensp; 3. Class - 10</b></br>
+			<br></br><br><b>&ensp; 1. Class - 09 </b></br><br><b>&ensp; 2. Class - 10</b></br>
 		<form action="science.html">
 		<button class="card-btn">visit<span>&rarr;</span></button>
 		</form>
@@ -53,7 +67,7 @@
 			It has a huge scope in every field of our life, such as medicine, engineering, finance, natural science, economics, etc.
 			We are all surrounded by a mathematical world.]
 			</p>
-			<br><b>&ensp; 1. Class - 08</b></br><br><b>&ensp; 2. Class - 09 </b></br><br><b>&ensp; 3. Class - 10</b></br>
+			<br><b>&ensp; 1. Class - 09 </b></br><br><b>&ensp; 2. Class - 10</b></br>
 		<form action="mathematics.html">
 		<button class="card-btn">visit<span>&rarr;</span></button>
 		</form>

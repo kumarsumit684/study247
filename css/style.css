@@ -8,7 +8,9 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
+
 }
+
 
 .topnav a {
   float: left;
@@ -19,6 +21,7 @@
   text-decoration: none;
   border-style: solid;
   border-width: 1px;
+  
 }
 
 .topnav a:hover {
@@ -35,6 +38,7 @@ topnav{
 	justify-content: space-between;
 	padding: 0px 50px 0px 100px;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.9);
+	
 	
 }
 
@@ -69,7 +73,7 @@ topnav{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: sticky;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
